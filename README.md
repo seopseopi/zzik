@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="https://seopseopi.github.io/ZZIK/"><strong>체험 사이트 열기</strong></a>
+  <a href="https://seopseopi.github.io/zzik/"><strong>체험 사이트 열기</strong></a>
   &nbsp;|&nbsp; <a href="docs/DEMO_GUIDE.md">사용 가이드</a>
   &nbsp;|&nbsp; <a href="docs/README.md">문서</a>
-  &nbsp;|&nbsp; <a href="https://github.com/seopseopi/ZZIK/issues">문의</a>
+  &nbsp;|&nbsp; <a href="https://github.com/seopseopi/zzik/issues">문의</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/seopseopi/ZZIK/actions/workflows/ci.yml"><img src="https://github.com/seopseopi/ZZIK/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI" /></a>
+  <a href="https://github.com/seopseopi/zzik/actions/workflows/ci.yml"><img src="https://github.com/seopseopi/zzik/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI" /></a>
   <img src="https://img.shields.io/badge/React-19-2864ff?logo=react&amp;logoColor=white" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-7-2864ff?logo=typescript&amp;logoColor=white" alt="TypeScript 7" />
   <img src="https://img.shields.io/badge/FastAPI-Python%203.13-2864ff?logo=fastapi&amp;logoColor=white" alt="FastAPI · Python 3.13" />
@@ -60,7 +60,7 @@
 
 ## 팀원 체험
 
-**[체험 사이트 열기 →](https://seopseopi.github.io/ZZIK/)**
+**[체험 사이트 열기 →](https://seopseopi.github.io/zzik/)**
 
 설치나 로그인 없이 바로 둘러볼 수 있습니다. 상단에서 지수·민지·서연·유진을 바꿔 사진 필터, 보정본 저장, 승인과 최종본 다운로드를 체험하세요. 변경사항은 **각자의 브라우저에만 저장**되며 팀원 사이에 동기화되지 않습니다. 업로드한 사진도 서버로 전송하지 않습니다. 처음 상태로 돌아가려면 상단의 **체험 초기화**를 누르세요.
 
@@ -88,8 +88,8 @@
 **Node.js 24 이상 · Python 3.13 · PostgreSQL 17**이 필요합니다.
 
 ```bash
-git clone https://github.com/seopseopi/ZZIK.git
-cd ZZIK
+git clone https://github.com/seopseopi/zzik.git
+cd zzik
 brew install postgresql@17  # 미설치 시 한 번
 bash scripts/dev.sh
 ```
@@ -99,8 +99,8 @@ bash scripts/dev.sh
 ### Docker
 
 ```bash
-git clone https://github.com/seopseopi/ZZIK.git
-cd ZZIK
+git clone https://github.com/seopseopi/zzik.git
+cd zzik
 cp .env.example .env
 docker compose up --build -d
 docker compose exec api python -m app.seed
@@ -146,4 +146,4 @@ ZZIK/
 | [연결 점검](docs/CONNECTIONS.md) | 실제 연결과 샘플 모드의 경계 |
 | [자산 안내](docs/ASSETS.md) | 사용자 제공 참고 이미지·샘플 출처 |
 
-오류와 개선 의견은 [Issues](https://github.com/seopseopi/ZZIK/issues)에 남겨 주세요. 공개 이슈에는 비밀번호나 실제 여행 사진 대신 재현 순서와 가상의 예시를 사용해 주세요.
+오류와 개선 의견은 [Issues](https://github.com/seopseopi/zzik/issues)에 남겨 주세요. 공개 이슈에는 비밀번호나 실제 여행 사진 대신 재현 순서와 가상의 예시를 사용해 주세요.

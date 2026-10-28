@@ -77,7 +77,7 @@ npm --prefix frontend run test:e2e
 - 단순 목적 라벨 `게시 제외`는 앨범 멤버에게 숨기는 권한 기능이 아니다.
 - Python 테스트에서 라이브러리의 TestClient/httpx·anyio 폐기 예고 경고 2개가 발생하나 실패는 없다.
 
-후속 사용자 요청으로 `seopseopi/ZZIK` 공개 저장소와 GitHub Pages 체험 사이트 배포를 준비했다. 체험은 브라우저 내부 저장으로 동작하며 Python·PostgreSQL·AWS 운영 배포와 구분한다. 유료 리소스는 생성하지 않았다. 상세 배포·체험 범위는 [DEMO_DEPLOYMENT.md](DEMO_DEPLOYMENT.md)에 기록한다.
+후속 사용자 요청으로 `seopseopi/zzik` 공개 저장소와 GitHub Pages 체험 사이트 배포를 준비했다. 체험은 브라우저 내부 저장으로 동작하며 Python·PostgreSQL·AWS 운영 배포와 구분한다. 유료 리소스는 생성하지 않았다. 상세 배포·체험 범위는 [DEMO_DEPLOYMENT.md](DEMO_DEPLOYMENT.md)에 기록한다.
 
 ## 팀원 공유용 체험 모드
 

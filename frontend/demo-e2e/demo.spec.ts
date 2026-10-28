@@ -48,7 +48,7 @@ test('browser-only demo saves edits, switches approvers, downloads and isolates 
   await expect(page.locator('.editor-mobile-review')).toContainText('1 / 2명 승인');
   const separate = await browser.newContext();
   const other = await separate.newPage();
-  await other.goto('http://127.0.0.1:5174/ZZIK/');
+  await other.goto('http://127.0.0.1:5174/zzik/');
   await other.getByRole('button', {name: 'JEJU_0002.jpg 보정하기', exact: true}).click();
   await expect(other.locator('.editor-version')).toHaveCount(1);
   await separate.close();

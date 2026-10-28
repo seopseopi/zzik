@@ -9,8 +9,8 @@
 Node.js 24 이상, Python 3.13, Homebrew PostgreSQL 17이 필요합니다. 이미 구성된 이 작업 공간에서는 아래 명령으로 시작합니다.
 
 ```bash
-git clone https://github.com/seopseopi/ZZIK.git
-cd ZZIK
+git clone https://github.com/seopseopi/zzik.git
+cd zzik
 # PostgreSQL 17이 없다면 한 번만 실행
 brew install postgresql@17
 bash scripts/dev.sh

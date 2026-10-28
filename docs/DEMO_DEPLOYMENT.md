@@ -1,7 +1,7 @@
 # 팀원 공유용 체험 사이트
 
-- GitHub: https://github.com/seopseopi/ZZIK
-- 체험 주소: https://seopseopi.github.io/ZZIK/
+- GitHub: https://github.com/seopseopi/zzik
+- 체험 주소: https://seopseopi.github.io/zzik/
 
 팀원이 프론트와 사용 흐름을 확인하는 용도다. Python·DB·AWS 서버가 배포된 서비스가 아니며, 체험 데이터를 다른 사람과 공유하지 않는다.
 
@@ -24,7 +24,7 @@ npm --prefix frontend run dev:demo
 GitHub Pages와 동일한 경로에서 빌드·검사:
 
 ```bash
-npm --prefix frontend run build:demo -- --base=/ZZIK/
+npm --prefix frontend run build:demo -- --base=/zzik/
 npm --prefix frontend run test:demo
 ```
 
@@ -38,6 +38,6 @@ GitHub Pages의 Source는 **GitHub Actions**다. `.github/workflows/ci.yml`은 `
 2. 실제 서버용 프론트 빌드, 체험 빌드, 브라우저 체험 테스트.
 3. 검증을 통과한 정적 파일만 Pages에 배포.
 
-[GitHub Actions](https://github.com/seopseopi/ZZIK/actions/workflows/ci.yml)에서 성공 여부와 배포 URL을 확인한다. 이전 상태로 되돌리려면 해당 변경을 `git revert`한 뒤 `main`에 push한다. 로컬 `.env`, DB·사진 폴더, 로그인 세션, 로그를 배포하지 않는다.
+[GitHub Actions](https://github.com/seopseopi/zzik/actions/workflows/ci.yml)에서 성공 여부와 배포 URL을 확인한다. 이전 상태로 되돌리려면 해당 변경을 `git revert`한 뒤 `main`에 push한다. 로컬 `.env`, DB·사진 폴더, 로그인 세션, 로그를 배포하지 않는다.
 
 GitHub 공식 문서: [사용자 정의 Pages 워크플로](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
